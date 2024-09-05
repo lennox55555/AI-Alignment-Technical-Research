@@ -4,8 +4,9 @@ Welcome to my **AI Alignment Research** repository! This project is dedicated to
 
 ## Overview
 This repository contains:
-1. **Research Paper**: "Shared Interest: Measuring Human-AI Alignment to Identify Recurring Patterns in Model Behavior" by Angie Boggust et al. [Link to paper]([./](https://dl.acm.org/doi/abs/10.1145/3491102.3501965)MeasuringHumanAIAlignment.pdf)
-2. **Jupyter Notebooks**: Hands-on technical analysis using the **Shared Interest** metrics for evaluating model alignment with human reasoning. [Link to notebook](.Al-Alignment-Shared-Interest.html)
+1. **Research Paper**: "Shared Interest: Measuring Human-AI Alignment to Identify Recurring Patterns in Model Behavior" by Angie Boggust et al. [Link to paper](https://dl.acm.org/doi/abs/10.1145/3491102.3501965)
+2. **Jupyter Notebooks**: Hands-on technical analysis using the **Shared Interest** metrics for evaluating model alignment with human reasoning. [Link to notebook](./Al-Alignment-Shared-Interest.ipynb)
+
 
 ## Purpose of This Repository
 I’m passionate about the field of **AI alignment**, and this repository serves as a hub for my research and experiments. My aim is to dive deeper into:
