@@ -4,17 +4,25 @@ Welcome to the **Adversarial AI Safety** folder. This section focuses on the var
 
 ## Overview
 
-As we develop AI systems to be more aligned with human values and thinking, it is essential to recognize that these same models are highly vulnerable to adversarial attacks. **Adversarial attacks** exploit weaknesses in ML models, often causing them to misclassify or behave unpredictably. The presence of these vulnerabilities highlights that AI is still far from being aligned with human thought processes, safety standards, and ethical considerations.
+This folder contains:
 
-This work was inspired by the paper **"Safety‐critical computer vision: an empirical survey of adversarial evasion attacks and defenses on computer vision systems"** by Charles Meyers, Tommy Löfstedt, and Erik Elmroth (2023). The paper covers a variety of adversarial attack methods and defenses for computer vision models. You can read the paper [here](https://link.springer.com/article/10.1007/s10462-023-10521-4).
+- **Research Paper**: "Safety‐critical computer vision: an empirical survey of adversarial evasion attacks and defenses on computer vision systems" by Charles Meyers, Tommy Löfstedt, and Erik Elmroth. [Link to paper](https://link.springer.com/article/10.1007/s10462-023-10521-4)
+
+- **Jupyter Notebooks**: Hands-on technical analysis of adversarial attacks and defenses to evaluate the robustness and vulnerability of AI models in safety-critical environments. Explore various attacks such as FGSM, PGD, and Adversarial Patch Attacks. [Link to notebooks](https://github.com/lennox55555/AI-Alignment-Technical-Research/blob/main/Adversarial%20AI%20Saftey/Adversarial%20AI%20Attacks.ipynb)
+
+- **Patch Images**: Generated adversarial patches (targeted) that were applied to fool the model (RESNET34) during classification tasks.
 
 
-In this folder, you will find:
-- **Jupyter Notebook**: Code that demonstrates adversarial patch attacks on a pre-trained model, visualizes adversarial patches, and evaluates the model's robustness.
-- **Patch Images**: Generated adversarial patches that were applied to fool the model during classification tasks.
-- **Model Output Logs**: Logs of the model's performance before and after adversarial patches were applied, showcasing accuracy degradation.
-- **Research Notes**: Additional conceptual thoughts on adversarial defenses, derived from the experiments and reading of the paper.
 
-## Conclusion
+## Purpose of This Repository
 
-This work is an exploration into how adversarial attacks, particularly **patch attacks**, can affect AI models, and what can be done to defend against them. By understanding these attacks in a hands-on way, we can improve the robustness of AI in critical systems. 
+I’m deeply interested in the field of **AI safety and robustness**, particularly in understanding the vulnerabilities of AI systems in safety-critical applications. This repository serves as a space for my research and experiments, focusing on the impact of adversarial attacks on AI models and their alignment with human values. My aim is to explore:
+
+- **Understanding Adversarial Attacks**: Investigating various attacks like **Fast Gradient Sign Method (FGSM)**, **Projected Gradient Descent (PGD)**, **Carlini & Wagner (C&W)**, **Few-Pixel Attacks**, **DeepFool**, and **Adversarial Patch Attacks** to see how they exploit model vulnerabilities.
+
+- **Exploring Model Robustness**: How models react to adversarial perturbations and where they fail to align with human reasoning under different attack scenarios.
+
+- **Developing Defense Mechanisms**: Experimenting with defense techniques such as **adversarial training**, **defensive distillation**, and **input transformations** to evaluate how well they mitigate the effects of adversarial attacks.
+
+- **Evaluating AI Alignment**: Highlighting the gap between AI decisions and human expectations, particularly in adversarial settings, which demonstrates how far AI models are from fully aligning with human values and thought processes.
+
