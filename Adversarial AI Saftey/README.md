@@ -1,26 +1,13 @@
-# Adversarial AI Patch Exploration
+# Adversarial AI Saftey Repository
+
+Welcome to the **Adversarial AI Safety** folder. This section focuses on the various types of adversarial attacks that aim to compromise the integrity of machine learning (ML) models, causing misclassifications or poisoning the model's behavior. Understanding these attacks is crucial as we work toward aligning AI with human values and thinking.
 
 ## Overview
 
-This folder contains code and research notes focused on understanding and experimenting with **adversarial evasion attacks and conceptual methods for defense** using patches on computer vision models. The primary focus is to replicate the findings from a recent paper on safety-critical computer vision systems and adversarial defenses.
+As we develop AI systems to be more aligned with human values and thinking, it is essential to recognize that these same models are highly vulnerable to adversarial attacks. **Adversarial attacks** exploit weaknesses in ML models, often causing them to misclassify or behave unpredictably. The presence of these vulnerabilities highlights that AI is still far from being aligned with human thought processes, safety standards, and ethical considerations.
 
-This work was inspired by the paper **"Safety‐critical computer vision: an empirical survey of adversarial evasion attacks and defenses on computer vision systems"** by Charles Meyers, Tommy Löfstedt, and Erik Elmroth (2023). The paper covers a variety of adversarial attack methods and defenses for computer vision models. You can read the paper [here]([https://link-to-paper](https://link.springer.com/article/10.1007/s10462-023-10521-4)).
+This work was inspired by the paper **"Safety‐critical computer vision: an empirical survey of adversarial evasion attacks and defenses on computer vision systems"** by Charles Meyers, Tommy Löfstedt, and Erik Elmroth (2023). The paper covers a variety of adversarial attack methods and defenses for computer vision models. You can read the paper [here](https://link.springer.com/article/10.1007/s10462-023-10521-4).
 
-## Research Motivation
-
-The paper provides a deep dive into how adversarial attacks, particularly evasion attacks, compromise the reliability of AI models in safety-critical applications. The authors present numerous experiments with attacks and defenses, focusing on the impact of adversarial noise on model performance. In particular, Section 4 defense methods, which was the key area of focus for this exploration.
-
-Through my own research and experiments, I aimed to investigate **how adversarial patches** can fool pre-trained image classification models. I used **adversarial patches** and other attacks like FGSM (Fast Gradient Sign Method) as mentioned in the paper. I also explored conceptual defenses that might improve robustness to these attacks.
-
-## Conceptual Models for Adversarial Defense
-
-One takeaway from the research was that to truly align AI systems with human thinking and ensure safety, we must understand how human thinking differs from machine learning. My conceptual models for adversarial defense were derived from studying the methods in Section 4 of the paper, which discusses attacker identification and subset analysis.
-
-While I followed a Jupyter notebook to perform and visualize attacks, I also came up with some **conceptual factors for adversarial defense**:
-- **Attacker Identification**: Using graph theoretical methods to isolate potential attackers based on network behavior.
-- **Subset Analysis**: Analyzing subsets of data to detect adversarial inputs by assessing how their removal impacts model performance.
-
-## Content of the Subfolder
 
 In this folder, you will find:
 - **Jupyter Notebook**: Code that demonstrates adversarial patch attacks on a pre-trained model, visualizes adversarial patches, and evaluates the model's robustness.
