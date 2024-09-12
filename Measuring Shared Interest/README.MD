@@ -1,5 +1,5 @@
 
-# AI Alignment Research Repository - README
+# AI Alignment Research Repository
 
 Welcome to my **AI Alignment Research** repository! This project is dedicated to exploring, analyzing, and improving alignment between artificial intelligence models and human reasoning through a combination of **technical research** and **machine learning experiments**. The goal is to contribute to the field of **AI alignment**, focusing on understanding how well models make decisions that align with human expectations and how to measure that alignment systematically.
 
