@@ -13,10 +13,3 @@ This repository contains:
 I’m passionate about the field of **AI alignment**, and this repository serves as a hub for my research and experiments. My aim is to dive deeper into:
 - **Measuring Human-AI Alignment**: How to quantify alignment between AI model decisions and human logic using metrics like **Intersection over Union (IoU)**, **Ground Truth Coverage (GTC)**, and **Saliency Coverage (SC)**.
 - **Recurring Patterns in Model Behavior**: Identifying patterns where AI models align with or deviate from human reasoning.
-
-## How I Performed Technical Research
-The research is centered around the **Shared Interest** framework introduced in the paper. Here’s a summary of what I did:
-1. **Model Training & Saliency Methods**: I used pre-trained models (such as **EfficientNet** and **ResNet**) and various **saliency methods** (e.g., **Grad-CAM**, **LIME**) to interpret model predictions and visualize the features models rely on.
-2. **Metric Calculation**: Using **IoU**, **GTC**, and **SC**, I compared the model's salient features to human-labeled ground truth annotations to determine how well the model's decision-making aligns with human reasoning.
-3. **Interactive Probing**: In the Jupyter Notebook, I explored different case studies and experimented with **real-world tasks** (like image classification using the CIFAR-10 dataset) to see how the metrics reveal patterns in model behavior.
-4. **Visualization**: Generated saliency maps to visually inspect model decisions and understand when models over-rely on irrelevant features or align perfectly with human reasoning.
