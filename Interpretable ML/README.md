@@ -16,15 +16,6 @@ This repository contains:
 
 I’m particularly interested in exploring **interpretable machine learning models** that can be applied in real-world tasks where transparency is critical. This repository serves as a workspace for my research and experiments on comparing these models.
 
-### Key Goals:
-  
-- **Comparing Interpretability**: Examining the balance between interpretability and predictive power in models like Logistic Regression and GAM. These models are known for their relatively high explainability, making them ideal candidates for applications in which decisions need to be understood by end-users (e.g., in healthcare, finance, or customer churn prediction).
-
-- **Model Performance Evaluation**: Beyond interpretability, the notebook delves into accuracy, precision, recall, f1-score, and ROC AUC metrics to compare how well the models perform in classifying binary outcomes (churn or not churn).
-
-- **Visualizing Model Differences**: By plotting the **ROC curves** for both Logistic Regression and GAM, this analysis allows for a straightforward comparison of the models' performance in distinguishing between classes.
-
-- **Exploring Trade-offs**: While GAM provides more flexibility in modeling non-linear relationships, Logistic Regression offers simplicity and ease of interpretation. The analysis explores this trade-off to determine which model may be more appropriate in different scenarios.
 
 ## Structure
 
@@ -48,14 +39,5 @@ I’m particularly interested in exploring **interpretable machine learning mode
 
 For tasks that prioritize **transparency and ease of interpretation**, **Logistic Regression** may be the model of choice due to its balance between interpretability and strong performance. However, **GAM** offers an alternative when flexibility in modeling relationships is required, even though it might sacrifice some performance and simplicity.
 
-## How to Use the Repository
 
-To explore the notebook:
-- Open the [InterpretableML.ipynb](./InterpretableML.ipynb) notebook.
-- Run through the cells to see how the data is processed, models are trained, and evaluations are performed.
-
-## Future Work
-
-- **Model Explainability**: Further work on using SHAP (SHapley Additive exPlanations) or LIME (Local Interpretable Model-agnostic Explanations) to improve the interpretability of the GAM model.
-- **Adding More Models**: Future additions could include other interpretable models such as Decision Trees or Rule-based models to expand the scope of the comparison.
 
