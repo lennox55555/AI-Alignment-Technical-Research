@@ -1,4 +1,4 @@
-# Interpretable Machine Learning with Heart Attack Prediction Repository
+# Interpretable Machine Learning with Heart Attack Risk Prediction
 
 Welcome to the **Heart Attack Prediction** repository, where I focus on using interpretable machine learning models to predict heart attack risk based on patient data. The primary goal of this project is to explore and compare models that maintain both high performance and interpretability. I used a heart attack dataset and applied models like **C45TreeClassifier**, **RuleFitClassifier**, and **TaoTreeClassifier** to derive insights from the data.
 
