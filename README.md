@@ -1,34 +1,39 @@
-# AI Alignment & XAI Repository
+# AI Alignment Technical Research
 
-Welcome to the **AI Alignment & Explainable AI (XAI)** repository! This repository is dedicated to exploring two critical areas of AI research: **AI alignment** and **explainability**. Through research papers, analyses, and code demonstrations, we dive into ensuring that AI systems are aligned with human values and are transparent, interpretable, and accountable.
+Welcome to my AI Alignment Technical Research repository! This repository represents my active learning and technical research in the field of AI alignment. It covers a broad range of topics that provide essential insights before delving deeper into the challenge of aligning AI systems with human values and ethical standards.
 
 ## Overview
 
-As AI systems become increasingly integral to critical decision-making processes, **AI alignment** ensures that these systems' goals, behaviors, and outcomes align with human values, intentions, and societal norms. However, **we cannot fully ensure that AI is aligned with human thinking and values unless these systems are interpretable and explainable**. **Explainable AI (XAI)** is vital to achieving this goal by making AI models more transparent and understandable.
+AI alignment is essential for ensuring that AI systems behave in ways that are beneficial to humans and aligned with our goals. This repository explores key technical areas such as adversarial AI, explainable AI, and interpretable machine learning, forming the foundation of my research into human-aligned AI systems.
 
-The repository will be organized into the following topics:
+## Structure
 
-### Topics
+The repository is divided into several key areas:
 
-- Shared Interest & Human Alignment 
-- Adversarial AI Safety Defense & Attack 
-- Interpretable ML  
-- Explainable ML
-- Explainable Deep Learning  
-- XAI in LLM's  
-- Mechanistic Interpretability  
-- Human-AI Interaction  
-- AI Alignment  
+### 1. **Adversarial AI**
+   - *Techniques:* FGSM, PGD, C&W, DeepFool, Few Pixel, Patch
+   - A detailed exploration of adversarial attack methods and defenses, which are critical for ensuring the robustness and reliability of AI systems.
 
-## What to Expect
+### 2. **Explainable Deep Learning & Human Alignment**
+   - *Techniques:* Integrated Gradients, Attention, BERT
+   - Investigates methods that help make deep learning models more transparent and interpretable, allowing for better alignment with human reasoning and goals.
 
-Each topic will be covered through:
+### 3. **Explainable NLP**
+   - *Techniques:* BERT & LIME
+   - Focuses on explainability techniques applied to natural language processing, ensuring that model outputs are understandable to humans.
 
-- **Research Papers**: Relevant papers that address the topic, including an analysis of the key concepts.
-- **Code Examples**: Jupyter notebooks and Python scripts that demonstrate practical applications of XAI concepts. These examples will help you experiment with models and understand how explainability techniques are applied in practice.
-- **Discussions**: Insights and reflections on how XAI aligns with human reasoning, ethical considerations, and the future of AI interpretability.
+### 4. **Explainable Techniques**
+   - *Techniques:* Partial Dependence Plots (PDP), Individual Conditional Expectation (ICE), Accumulated Local Effects (ALE)
+   - A compilation of model-agnostic techniques that aid in understanding and explaining machine learning models.
 
+### 5. **Interpretable Machine Learning**
+   - *Algorithms:* C4.5, Ruleset, TAO, Linear Regression, Logistic Regression, Generalized Additive Models (GAM)
+   - A focus on interpretable models, crucial for ensuring that AI systems can be trusted and understood in high-stakes applications.
 
-## Conclusion
+### 6. **Measuring Shared Interest**
+   - *Technique:* Grad-CAM
+   - This section explores the use of Grad-CAM for aligning deep learning models with human expectations by visualizing model focus areas.
 
-As AI becomes more powerful and pervasive, ensuring that it is aligned with human values is not just an option but a necessity. **However, true alignment cannot be achieved without interpretability and explainability**, as opaque AI systems pose risks of unintended consequences and ethical concerns. This repository is a resource for researchers and practitioners looking to deepen their understanding of AI alignment and explainability and to ensure that AI systems are both safe and accountable.
+## Contributing
+
+This repository is part of my continuous journey into AI alignment research, and I welcome contributions, feedback, and collaborations from anyone interested in creating human-aligned AI.
