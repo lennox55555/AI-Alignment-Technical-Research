@@ -1,1 +1,36 @@
+# Explainable Large Langague Model's
 
+**Author:** Lennox Anderson
+
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1e8LLQ_dV702G1NieIQ1a1tuWPLdjiVpB?usp=sharing)
+
+**Null Hypothesis (H₀):**
+The fine-tuned LegalBERT model's predictions on legislative data are robust to minor perturbations in prompts, and saliency scores or counterfactual explanations do not reveal significant reliance on specific symbols, patterns, or individual words.
+
+**Alternative Hypothesis (H₁):**
+The pretrained LegalBERT model's predictions on legislative data are sensitive to minor prompt perturbations, saliency scores, or counterfactual explanations showing a strong dependence on certain symbols, patterns, or words, which may suggest bias or limited flexibility.
+
+
+# ExplainableDL & Human Alignment (Integrated Gradients, Attention, BERT)
+
+**Author:** Lennox Anderson
+
+[![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ij_69maMbPKn9PP9uR9MZsxBwXmPVXTa?usp=sharing)
+
+**Hypothesis:**
+
+- **H₀:** Attention mechanisms in deep learning models trained on legislative data do not exhibit unintended biases when interpreting historical laws, and integrated gradients do not reveal significant patterns of bias.
+- **H₁:** Attention mechanisms in deep learning models trained on legislative data do exhibit unintended biases when interpreting historical laws, and these biases can be uncovered and aligned using integrated gradients.
+
+
+**Citations:**
+- Congressional Research Service. (n.d.). Browse U.S. legislative information by legislative subject term. Congress.gov. Library of Congress. Retrieved from https://www.congress.gov/browse
+- Libgober, B. (2023). A comprehensive dataset of U.S. federal laws [Data set]. OSF. https://doi.org/10.17605/OSF.IO/MRGHC
+License: CC-By Attribution 4.0 International.
+- Chalkidis, I., Fergadiotis, M., Malakasiotis, P., Aletras, N., & Androutsopoulos, I. (2020). LEGAL-BERT: The muppets straight out of law school. arXiv. https://doi.org/10.48550/arXiv.2010.02559
+
+
+
+
+
+***
