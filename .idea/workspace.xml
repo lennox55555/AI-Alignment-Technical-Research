@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75ea3d0d-3906-4921-b95d-ea4e072e60b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/InterpretableML (Mechanistic Interpretability)/mechanistic interpretability.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterpretableML (Mechanistic Interpretability)/mechanistic interpretability.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/InterpretableML (Mechanistic Interpretability)/mechanistic interpretability.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <workItem from="1729982111074" duration="2691000" />
       <workItem from="1729994696903" duration="253000" />
       <workItem from="1729994962689" duration="660000" />
-      <workItem from="1734214229471" duration="2814000" />
+      <workItem from="1734214229471" duration="3445000" />
     </task>
     <servers />
   </component>
